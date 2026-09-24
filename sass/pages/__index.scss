@@ -1,0 +1,12 @@
+.hero {
+    background-color: $colorSecondary;
+
+    .hero-photo {
+        width: 60%;
+        object-position: center top;
+
+        // Fade the left edge of the photo into the background
+        -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 45%);
+        mask-image: linear-gradient(to right, transparent 0%, #000 45%);
+    }
+}

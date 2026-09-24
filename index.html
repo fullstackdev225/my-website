@@ -38,7 +38,87 @@
             </div>
         </nav>
     </header>
+
+    <!-- Hero section -->
+    <section class="position-relative overflow-hidden hero text-white py-5" data-bs-theme="dark" id="hero">
+
+        <!-- Background photo (right side, hidden on mobile and tablet) -->
+        <img src="images/my-photo.png"
+            alt="Portrait de Jean-Charles"
+            class="d-none d-lg-block position-absolute top-0 end-0 h-100 object-fit-cover hero-photo">
+
+        <div class="container position-relative py-lg-5">
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <!-- Availability badge -->
+                    <span class="badge rounded-pill bg-primary bg-opacity-10 border border-primary border-opacity-25 text-info text-uppercase fw-medium px-3 py-2 mb-4">
+                        <span class="d-inline-block bg-success rounded-circle p-1 me-2"></span>
+                        Disponible pour de nouveaux projets
+                    </span>
+
+                    <!-- Main title -->
+                    <h1 class="display-4 fw-bold lh-sm mb-4">
+                        Développeur
+                        <span class="d-block text-primary">Full Stack JavaScript</span>
+                    </h1>
+
+                    <!-- Description -->
+                    <p class="lead text-body-secondary mb-4">
+                        Je conçois et développe des applications web modernes,
+                        performantes et évolutives avec des expériences
+                        utilisateur exceptionnelles.
+                    </p>
+
+                    <!-- Small accent line -->
+                    <hr class="w-25 border-primary border-2 opacity-100 my-4">
+
+                    <!-- Call-to-action buttons -->
+                    <div class="d-flex flex-wrap gap-3 mb-5">
+                        <a href="project.html" class="btn btn-primary px-4 py-2">
+                            Voir mes projets
+                            <i class="fa-solid fa-circle-chevron-right ms-2"></i>
+                        </a>
+                        <a href="contact.html" class="btn btn-outline-light px-4 py-2">
+                            Me contacter
+                            <i class="fa-regular fa-comment-dots ms-2"></i>
+                        </a>
+                    </div>
+
+                    <!-- Social links -->
+                    <p class="text-uppercase text-body-secondary small mb-3">Me suivre</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#" class="d-inline-flex text-white bg-white bg-opacity-10 text-decoration-none rounded-circle p-3 lh-1" aria-label="Facebook"
+                        data-bs-toggle="tooltip" title="Facebook">
+                            <i class="fa-brands fa-facebook-f fa-fw"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pah-sea-jean-charles-potey-12b4b0300/" class="d-inline-flex text-white bg-white bg-opacity-10 text-decoration-none rounded-circle p-3 lh-1" aria-label="LinkedIn"
+                        data-bs-toggle="tooltip" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in fa-fw"></i>
+                        </a>
+                        <a href="https://github.com/fullstackdev225" class="d-inline-flex text-white bg-white bg-opacity-10 text-decoration-none rounded-circle p-3 lh-1" aria-label="GitHub"
+                        data-bs-toggle="tooltip" title="GitHub">
+                            <i class="fa-brands fa-github fa-fw"></i>
+                        </a>
+                        <a href="https://x.com/fullstack_dev22" class="d-inline-flex text-white bg-white bg-opacity-10 text-decoration-none rounded-circle p-3 lh-1" aria-label="X (Twitter)"
+                        data-bs-toggle="tooltip" title="Twitter">
+                            <i class="fa-brands fa-x-twitter fa-fw"></i>
+                        </a>
+                        <a href="#" class="d-inline-flex text-white bg-white bg-opacity-10 text-decoration-none rounded-circle p-3 lh-1" aria-label="Instagram"
+                        data-bs-toggle="tooltip" title="Instagram">
+                            <i class="fa-brands fa-instagram fa-fw"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
     
     <script src="sass/vendors/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
 </body>
 </html>

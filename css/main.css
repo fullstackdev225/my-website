@@ -11890,4 +11890,14 @@ html {
   border-bottom-color: #0d6efd;
 }
 
+.hero {
+  background-color: #051328;
+}
+.hero .hero-photo {
+  width: 60%;
+  object-position: center top;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 45%);
+  mask-image: linear-gradient(to right, transparent 0%, #000 45%);
+}
+
 /*# sourceMappingURL=main.css.map */
