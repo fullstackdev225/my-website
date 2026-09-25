@@ -1,3 +1,5 @@
+/* HERO SECTION */
+
 .hero {
     background-color: $colorSecondary;
 
@@ -8,5 +10,13 @@
         // Fade the left edge of the photo into the background
         -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 45%);
         mask-image: linear-gradient(to right, transparent 0%, #000 45%);
+    }
+}
+
+/* Call-to-action banner section */
+
+#about-teaser{
+    .banner{
+        background-color: $colorSecondary;
     }
 }

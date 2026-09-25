@@ -1,0 +1,20 @@
+footer{
+    @include headFootStyle;
+
+    .row{
+        .col-lg-4{
+            ul{
+                li{
+                    a{
+                        color: $colorTertiary;
+                        transition: color 250ms;
+
+                        &:hover{
+                            color: $colorPrimary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
