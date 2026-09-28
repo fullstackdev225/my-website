@@ -11922,4 +11922,24 @@ footer .row .col-lg-4 ul li a:hover {
   background-color: rgb(7.8333333333, 29.7666666667, 62.6666666667);
 }
 
+#about-hero {
+  background-color: rgb(6.7, 25.46, 53.6);
+}
+
+#who-am-i {
+  background-color: #051328;
+}
+
+#journey {
+  background-color: rgb(6.7, 25.46, 53.6);
+}
+
+#values {
+  background-color: #051328;
+}
+
+#cta-projet {
+  background-color: rgb(6.7, 25.46, 53.6);
+}
+
 /*# sourceMappingURL=main.css.map */
