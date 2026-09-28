@@ -38,6 +38,301 @@
             </div>
         </nav>
     </header>
+
+    <!-- Contact hero section -->
+    <section class="text-white pt-5" data-bs-theme="dark" id="contact-hero">
+        <div class="container pt-lg-4">
+
+            <!-- Heading area -->
+            <div class="row pb-5">
+                <div class="col-lg-6">
+
+                    <!-- Small badge -->
+                    <span class="badge rounded-pill bg-primary bg-opacity-10 text-primary text-uppercase fw-medium px-3 py-2 mb-4">
+                        <span class="d-inline-block bg-primary rounded-circle p-1 me-2"></span>
+                        Contactez-moi
+                    </span>
+
+                    <!-- Main title -->
+                    <h1 class="display-4 fw-bold lh-sm mb-4">
+                        Parlons de votre
+                        <span class="d-block text-primary">projet <span aria-hidden="true">🤝</span></span>
+                    </h1>
+
+                    <!-- Description -->
+                    <p class="lead text-body-secondary mb-4">
+                        Vous avez un projet en tête, une question ou une opportunité
+                        de collaboration ? N'hésitez pas à me contacter.
+                    </p>
+
+                    <!-- Call-to-action button -->
+                    <a href="#contact-form" class="btn btn-primary btn-lg px-4 py-3 mt-3">
+                        Me contacter
+                        <i class="fa-regular fa-paper-plane ms-2"></i>
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- Contact info cards -->
+            <div class="border-top border-secondary-subtle pt-4 pb-5">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
+
+                    <!-- Email -->
+                    <div class="col">
+                        <div class="d-flex align-items-center gap-3 border border-secondary-subtle bg-white bg-opacity-10 rounded-3 p-3 h-100">
+                            <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle flex-shrink-0" style="width: 3rem; height: 3rem;">
+                                <i class="fa-regular fa-envelope fa-lg"></i>
+                            </div>
+                            <div>
+                                <p class="fw-semibold mb-0">Email</p>
+                                <a href="mailto:ppsjcfullstackdeveloper@gmail.com" class="link-light link-underline-opacity-0 text-break">ppsjcfullstackdeveloper@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="col">
+                        <div class="d-flex align-items-center gap-3 border border-secondary-subtle bg-white bg-opacity-10 rounded-3 p-3 h-100">
+                            <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle flex-shrink-0" style="width: 3rem; height: 3rem;">
+                                <i class="fa-solid fa-phone fa-lg"></i>
+                            </div>
+                            <div>
+                                <p class="fw-semibold mb-0">Téléphone</p>
+                                <a href="tel:+2250749623318" class="link-light link-underline-opacity-0">+225 05 55 76 21 55</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Location -->
+                    <div class="col">
+                        <div class="d-flex align-items-center gap-3 border border-secondary-subtle bg-white bg-opacity-10 rounded-3 p-3 h-100">
+                            <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle flex-shrink-0" style="width: 3rem; height: 3rem;">
+                                <i class="fa-solid fa-location-dot fa-lg"></i>
+                            </div>
+                            <div>
+                                <p class="fw-semibold mb-0">Localisation</p>
+                                <span>Abidjan, Cocody, Angré, Djorobité 1</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Availability -->
+                    <div class="col">
+                        <div class="d-flex align-items-center gap-3 border border-secondary-subtle bg-white bg-opacity-10 rounded-3 p-3 h-100">
+                            <div class="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle flex-shrink-0" style="width: 3rem; height: 3rem;">
+                                <i class="fa-regular fa-clock fa-lg"></i>
+                            </div>
+                            <div>
+                                <p class="fw-semibold mb-0">Disponibilité</p>
+                                <span>24H/24</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section><br><br>
+
+    <!-- Contact form section -->
+    <section class="bg-light py-5">
+        <div class="container py-lg-4">
+            <div class="row g-4 g-lg-5 align-items-stretch">
+
+                <!-- Illustration (hidden on mobile and tablet) -->
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="rounded-4 h-100 d-flex align-items-center justify-content-center p-4" data-bs-theme="dark">
+                        <img src="images/form-img.png"
+                            alt="Illustration d'une enveloppe et d'un avion en papier"
+                            class="img-fluid w-100 h-100">
+                    </div>
+                </div>
+
+                <!-- Form column -->
+                <div class="col-lg-6">
+
+                    <!-- Section heading -->
+                    <div class="text-center mb-4">
+                        <p class="text-primary text-uppercase fw-semibold small mb-2">Envoyez-moi un message</p>
+                        <h2 class="h2 fw-bold mb-3">
+                            Je vous répondrai dans
+                            <span class="d-block text-primary">les plus brefs délais.</span>
+                        </h2>
+                        <hr class="w-25 mx-auto border-primary border-2 opacity-100 my-3">
+                    </div>
+
+                    <!-- Contact form -->
+                    <form id="contact-form" action="#" method="post">
+                        <div class="row g-3">
+
+                            <!-- Name -->
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-start gap-3 bg-white shadow-sm rounded-3 p-3 h-100">
+                                    <i class="fa-regular fa-user text-secondary mt-1"></i>
+                                    <div class="flex-grow-1">
+                                        <label for="name" class="form-label fw-semibold small mb-0">Votre nom</label>
+                                        <input type="text" id="name" name="name"
+                                            class="form-control border-0 p-0 shadow-none"
+                                            placeholder="Ex : Jean Charles"
+                                            autocomplete="name" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-start gap-3 bg-white shadow-sm rounded-3 p-3 h-100">
+                                    <i class="fa-regular fa-envelope text-secondary mt-1"></i>
+                                    <div class="flex-grow-1">
+                                        <label for="email" class="form-label fw-semibold small mb-0">Votre email</label>
+                                        <input type="email" id="email" name="email"
+                                            class="form-control border-0 p-0 shadow-none"
+                                            placeholder="Ex : jean@email.com"
+                                            autocomplete="email" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Subject -->
+                            <div class="col-12">
+                                <div class="d-flex align-items-start gap-3 bg-white shadow-sm rounded-3 p-3">
+                                    <i class="fa-regular fa-file text-secondary mt-1"></i>
+                                    <div class="flex-grow-1">
+                                        <label for="subject" class="form-label fw-semibold small mb-0">Sujet</label>
+                                        <input type="text" id="subject" name="subject"
+                                            class="form-control border-0 p-0 shadow-none"
+                                            placeholder="Ex : Demande de devis, Collaboration..."
+                                            required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="col-12">
+                                <div class="d-flex align-items-start gap-3 bg-white shadow-sm rounded-3 p-3">
+                                    <i class="fa-solid fa-pen text-secondary mt-1"></i>
+                                    <div class="flex-grow-1">
+                                        <label for="message" class="form-label fw-semibold small mb-0">Votre message</label>
+                                        <textarea id="message" name="message" rows="5"
+                                                class="form-control border-0 p-0 shadow-none"
+                                                placeholder="Décrivez votre projet ou votre demande..."
+                                                required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Submit button -->
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary btn-lg w-100 py-3">
+                                    <i class="fa-regular fa-paper-plane me-2"></i>
+                                    Envoyer le message
+                                </button>
+                            </div>
+
+                            <!-- Privacy note -->
+                            <div class="col-12">
+                                <p class="text-body-secondary small mb-0">
+                                    <i class="fa-solid fa-lock me-2"></i>
+                                    Vos informations sont sécurisées et ne seront jamais partagées.
+                                </p>
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+
+    <!-- Footer -->
+    <footer class="text-white pt-5" data-bs-theme="dark">
+        <div class="container">
+            <div class="row gy-4 pb-4">
+
+                <!-- Brand + description + socials -->
+                <div class="col-lg-4">
+                    <a href="index.html" class="navbar-brand text-light fw-bold text-uppercase d-inline-block mb-3">
+                        <span class="bg-primary bg-gradient rounded p-1">Potey</span> <br>
+                        pah sea jean-charles
+                    </a>
+                    <p class="text-body-secondary mb-4">
+                        Développeur Full Stack JavaScript passionné par la création d'applications
+                        web modernes et performantes.
+                    </p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#" class="d-inline-flex text-decoration-none text-white bg-white bg-opacity-10 rounded-circle p-3 lh-1" data-bs-toggle="tooltip" title="Facebook" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f fa-fw"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pah-sea-jean-charles-potey-12b4b0300/" class="d-inline-flex text-decoration-none text-white bg-white bg-opacity-10 rounded-circle p-3 lh-1" data-bs-toggle="tooltip" title="LinkedIn" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in fa-fw"></i>
+                        </a>
+                        <a href="https://github.com/fullstackdev225" class="d-inline-flex text-decoration-none text-white bg-white bg-opacity-10 rounded-circle p-3 lh-1" data-bs-toggle="tooltip" title="GitHub" aria-label="GitHub">
+                            <i class="fa-brands fa-github fa-fw"></i>
+                        </a>
+                        <a href="https://x.com/fullstack_dev22" class="d-inline-flex text-decoration-none text-white bg-white bg-opacity-10 rounded-circle p-3 lh-1" data-bs-toggle="tooltip" title="Twitter" aria-label="X (Twitter)">
+                            <i class="fa-brands fa-x-twitter fa-fw"></i>
+                        </a>
+                        <a href="#" class="d-inline-flex text-decoration-none text-white bg-white bg-opacity-10 rounded-circle p-3 lh-1" data-bs-toggle="tooltip" title="Instagram" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram fa-fw"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Navigation links -->
+                <div class="col-lg-4">
+                    <h3 class="h6 fw-bold text-uppercase mb-3">Navigation</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="index.html" class="text-decoration-none">Accueil</a></li>
+                                <li class="mb-2"><a href="about.html" class="text-decoration-none">A propos</a></li>
+                                <li><a href="cv.html" class="text-decoration-none">CV</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="project.html" class="text-decoration-none">Projets</a></li>
+                                <li><a href="contact.html" class="text-decoration-none">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Availability -->
+                <div class="col-lg-4">
+                    <h3 class="h6 fw-bold text-uppercase mb-3">Disponibilité</h3>
+                    <p class="mb-2">
+                        <span class="d-inline-block bg-success rounded-circle p-1 me-2"></span>
+                        Disponible pour de nouveaux projets
+                    </p>
+                    <p class="text-body-secondary mb-4">
+                        N'hésitez pas à me contacter pour discuter de vos idées !
+                    </p>
+
+                    <!--Download CV-->
+                    <a href="#" class="text-decoration-none link-primary">
+                        Télécharger mon CV 
+                        <i class="fa-solid fa-file-pdf fs-1"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-top border-secondary-subtle py-3 text-center text-body-secondary small">
+                &copy; 2024 <a href="index.html" class="link-primary text-decoration-none text-uppercase">Potey pah sea jean-charles</a>. Tous droits réservés.
+            </div>
+        </div>
+    </footer>
+    
+    <script src="sass/vendors/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
     
     <script src="sass/vendors/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
