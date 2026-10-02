@@ -38,7 +38,330 @@
             </div>
         </nav>
     </header>
+        <section class="position-relative overflow-hidden hero text-white">
+
+        <!-- Background portrait image, aligned to the right (hidden on small screens) -->
+        <img src="images/my-photo.png" alt="Portrait de JC"
+            class="position-absolute top-0 hero-photo end-0 h-100 w-50 object-fit-cover d-none d-lg-block">
+
+        <!-- Main content container (above the image) -->
+        <div class="container position-relative py-5">
+            <div class="row">
+            <div class="col-lg-6 py-5 my-lg-5">
+
+                <!-- Small label -->
+                <p class="text-primary text-uppercase small fw-semibold mb-3">Mon CV</p>
+
+                <!-- Main title with highlighted part -->
+                <h1 class="display-4 fw-bold lh-sm mb-4">
+                Parcours, expériences
+                <span class="text-primary d-block">et compétences</span>
+                </h1>
+
+                <!-- Intro text -->
+                <p class="lead">
+                Découvrez mon parcours académique, mes expériences
+                professionnelles, mes compétences linguistiques
+                et mes centres d'intérêt.
+                </p>
+
+                <!-- Short decorative blue line -->
+                <div class="w-25 my-4">
+                <hr class="border-primary border-2 opacity-100 m-0">
+                </div>
+
+                <!-- Call-to-action buttons -->
+                <div class="d-flex flex-wrap gap-3 mt-4">
+                <a href="contact.html" class="btn btn-primary px-4 py-2">
+                    Me contacter <i class="fa-solid fa-paper-plane ms-2"></i>
+                </a>
+                <a href="cv.pdf" download class="btn btn-outline-light px-4 py-2">
+                    Télécharger mon CV <i class="fa-solid fa-download ms-2"></i>
+                </a>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </section><br><br>
+
+    <section class="bg-light py-5">
+  <div class="container">
+
+    <!-- First row: education + professional experience -->
+    <div class="row g-4 mb-4">
+
+      <!-- ========== EDUCATION ========== -->
+      <div class="col-lg-5">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+          <div class="card-body p-4">
+
+            <!-- Card header: icon + title -->
+            <div class="d-flex align-items-center mb-4">
+              <span class="bg-primary-subtle text-primary rounded-3 d-inline-flex p-3 me-3">
+                <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              </span>
+              <h2 class="h6 text-primary text-uppercase fw-bold mb-0">Parcours scolaire</h2>
+            </div>
+
+            <!-- Timeline item: BTS -->
+            <div class="position-relative border-start border-2 border-primary-subtle ps-4 pb-4">
+              <span class="position-absolute top-0 start-0 translate-middle p-1 bg-primary rounded-circle"></span>
+              <p class="small text-secondary mb-1">2021 – 2022</p>
+              <h3 class="h6 fw-bold mb-1">BTS en Informatique Développeur d'Application</h3>
+              <p class="small mb-2">Candidat Libre</p>
+              <p class="small text-secondary mb-0">
+                Parcours orienté développement logiciel et systèmes d'information.
+              </p>
+            </div>
+
+            <!-- Timeline item: Baccalauréat (last item, no bottom padding) -->
+            <div class="position-relative border-start border-2 border-transparent ps-4">
+              <span class="position-absolute top-0 start-0 translate-middle p-1 bg-primary rounded-circle"></span>
+              <p class="small text-secondary mb-1">2018 – 2019</p>
+              <h3 class="h6 fw-bold mb-1">Baccalauréat Série D</h3>
+              <p class="small mb-2">Lycée Moderne de Cocody – Cocody, Abidjan</p>
+              <p class="small text-secondary mb-0">Obtention du baccalauréat série D avec mention passable.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ========== PROFESSIONAL EXPERIENCE ========== -->
+      <div class="col-lg-7">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+          <div class="card-body p-4">
+
+            <!-- Card header: icon + title -->
+            <div class="d-flex align-items-center mb-4">
+              <span class="bg-primary-subtle text-primary rounded-3 d-inline-flex p-3 me-3">
+                <i class="fa-solid fa-briefcase fa-fw"></i>
+              </span>
+              <h2 class="h6 text-primary text-uppercase fw-bold mb-0">Expériences professionnelles</h2>
+            </div>
+
+            <!-- Timeline item: Full Stack Developer -->
+            <div class="position-relative border-start border-2 border-primary-subtle ps-4 pb-4">
+              <span class="position-absolute top-0 start-0 translate-middle p-1 bg-primary rounded-circle"></span>
+              <p class="small text-secondary mb-1">Nov. 2023 – Fev. 2024</p>
+              <h3 class="h6 fw-bold mb-1">Développeur Full Stack - Stage</h3>
+              <p class="small mb-2">Secutic – Bingerville, Abidjan</p>
+              <ul class="small text-secondary mb-0">
+                <li>Conception et développement d'une application de géolocalisation de véhicules.</li>
+                <li>Intégration d'API REST et gestion des bases de données.</li>
+                <li>Optimisation des performances et de la sécurité de l'application.</li>
+                <li>Collaboration avec les équipes design et produit.</li>
+              </ul>
+            </div>
+
+            <!-- Timeline item: Web Developer -->
+            <div class="position-relative border-start border-2 border-primary-subtle ps-4 pb-4">
+              <span class="position-absolute top-0 start-0 translate-middle p-1 bg-primary rounded-circle"></span>
+              <p class="small text-secondary mb-1">Sep. 2021 – Oct. 2023</p>
+              <h3 class="h6 fw-bold mb-1">Développeur Web - CDI</h3>
+              <p class="small mb-2">Peniel Multiservices – Cocody, Abidjan</p>
+              <ul class="small text-secondary mb-0">
+                <li>Développement du site web de l'entreprise.</li>
+                <li>Correction de bugs, amélioration et optimisation des fonctionnalités existantes.</li>
+                <li>Rédaction de documents techniques et tests unitaires.</li>
+              </ul>
+            </div>
+
+            <!-- Timeline item: Assistant Developer (internship, last item) -->
+            <div class="position-relative border-start border-2 border-transparent ps-4">
+              <span class="position-absolute top-0 start-0 translate-middle p-1 bg-primary rounded-circle"></span>
+              <p class="small text-secondary mb-1">Aou. 2019 – Dec. 2019</p>
+              <h3 class="h6 fw-bold mb-1">Développeur web - Stage</h3>
+              <p class="small mb-2">Peniel Multiservices – Cocody, Abidjan</p>
+              <ul class="small text-secondary mb-0">
+                <li>Développement de Sites web et applications web avec PHP et JavaScript.</li>
+                <li>Gestion et mise à jour de bases de données MySQL.</li>
+                <li>Assistance à la maintenance des applications existantes.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second row: languages + interests -->
+    <div class="row g-4">
+
+      <!-- ========== LANGUAGES ========== -->
+      <div class="col-lg-5">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+          <div class="card-body p-4">
+
+            <!-- Card header: icon + title -->
+            <div class="d-flex align-items-center mb-4">
+              <span class="bg-primary-subtle text-primary rounded-3 d-inline-flex p-3 me-3">
+                <i class="fa-solid fa-globe fa-fw"></i>
+              </span>
+              <h2 class="h6 text-primary text-uppercase fw-bold mb-0">Langues</h2>
+            </div>
+
+            <!-- Language: English (3/4 dots) -->
+            <div class="d-flex align-items-center justify-content-between mb-3">
+              <div>
+                <span class="fw-semibold small me-2">Anglais</span>
+                <span class="text-secondary small">Niveau intermédiaire (B1)</span>
+              </div>
+              <div class="d-flex gap-2">
+                <i class="fa-solid fa-circle text-primary"></i>
+                <i class="fa-solid fa-circle text-primary"></i>
+                <i class="fa-solid fa-circle text-primary"></i>
+                <i class="fa-solid fa-circle text-body-tertiary"></i>
+              </div>
+            </div>
+
+            <!-- Language: Spanish (2/4 dots) -->
+            <div class="d-flex align-items-center justify-content-between">
+              <div>
+                <span class="fw-semibold small me-2">Espagnol</span>
+                <span class="text-secondary small">Niveau débutant (A2)</span>
+              </div>
+              <div class="d-flex gap-2">
+                <i class="fa-solid fa-circle text-primary"></i>
+                <i class="fa-solid fa-circle text-primary"></i>
+                <i class="fa-solid fa-circle text-body-tertiary"></i>
+                <i class="fa-solid fa-circle text-body-tertiary"></i>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ========== INTERESTS ========== -->
+      <div class="col-lg-7">
+        <div class="card border-0 shadow-sm rounded-4 h-100">
+          <div class="card-body p-4">
+
+            <!-- Card header: icon + title -->
+            <div class="d-flex align-items-center mb-4">
+              <span class="bg-primary-subtle text-primary rounded-3 d-inline-flex p-3 me-3">
+                <i class="fa-solid fa-heart fa-fw"></i>
+              </span>
+              <h2 class="h6 text-primary text-uppercase fw-bold mb-0">Centres d'intérêt</h2>
+            </div>
+
+            <!-- Interests grid: 2 per row on mobile, 3 per row from md up -->
+            <div class="row row-cols-2 row-cols-md-3 g-3">
+
+              <!-- Technology -->
+              <div class="col d-flex align-items-center">
+                <i class="fa-solid fa-robot fa-xl text-primary me-3"></i>
+                <span class="small">Technologie</span>
+              </div>
+
+              <!-- Football -->
+              <div class="col d-flex align-items-center">
+                <i class="fa-regular fa-futbol fa-xl text-primary me-3"></i>
+                <span class="small">Football</span>
+              </div>
+
+              <!-- Programming -->
+              <div class="col d-flex align-items-center">
+                <i class="fa-solid fa-code fa-xl text-primary me-3"></i>
+                <span class="small">Programmation</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+    <footer class="text-white pt-5" data-bs-theme="dark">
+        <div class="container">
+            <div class="row gy-4 pb-4">
+
+                <!-- Brand + description + socials -->
+                <div class="col-lg-4">
+                    <a href="index.html" class="navbar-brand text-light fw-bold text-uppercase d-inline-block mb-3">
+                        <span class="bg-primary bg-gradient rounded p-1">Potey</span> <br>
+                        pah sea jean-charles
+                    </a>
+                    <p class="text-body-secondary mb-4">
+                        Développeur Full Stack JavaScript passionné par la création d'applications
+                        web modernes et performantes.
+                    </p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#" class="d-inline-flex text-decoration-none text-white bg-white bg-opacity-10 rounded-circle p-3 lh-1" data-bs-toggle="tooltip" title="Facebook" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f fa-fw"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pah-sea-jean-charles-potey-12b4b0300/" class="d-inline-flex text-decoration-none text-white bg-white bg-opacity-10 rounded-circle p-3 lh-1" data-bs-toggle="tooltip" title="LinkedIn" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in fa-fw"></i>
+                        </a>
+                        <a href="https://github.com/fullstackdev225" class="d-inline-flex text-decoration-none text-white bg-white bg-opacity-10 rounded-circle p-3 lh-1" data-bs-toggle="tooltip" title="GitHub" aria-label="GitHub">
+                            <i class="fa-brands fa-github fa-fw"></i>
+                        </a>
+                        <a href="https://x.com/fullstack_dev22" class="d-inline-flex text-decoration-none text-white bg-white bg-opacity-10 rounded-circle p-3 lh-1" data-bs-toggle="tooltip" title="Twitter" aria-label="X (Twitter)">
+                            <i class="fa-brands fa-x-twitter fa-fw"></i>
+                        </a>
+                        <a href="#" class="d-inline-flex text-decoration-none text-white bg-white bg-opacity-10 rounded-circle p-3 lh-1" data-bs-toggle="tooltip" title="Instagram" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram fa-fw"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Navigation links -->
+                <div class="col-lg-4">
+                    <h3 class="h6 fw-bold text-uppercase mb-3">Navigation</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="index.html" class="text-decoration-none">Accueil</a></li>
+                                <li class="mb-2"><a href="about.html" class="text-decoration-none">A propos</a></li>
+                                <li><a href="cv.html" class="text-decoration-none">CV</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><a href="project.html" class="text-decoration-none">Projets</a></li>
+                                <li><a href="contact.html" class="text-decoration-none">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Availability -->
+                <div class="col-lg-4">
+                    <h3 class="h6 fw-bold text-uppercase mb-3">Disponibilité</h3>
+                    <p class="mb-2">
+                        <span class="d-inline-block bg-success rounded-circle p-1 me-2"></span>
+                        Disponible pour de nouveaux projets
+                    </p>
+                    <p class="text-body-secondary mb-4">
+                        N'hésitez pas à me contacter pour discuter de vos idées !
+                    </p>
+
+                    <!--Download CV-->
+                    <a href="#" class="text-decoration-none link-primary">
+                        Télécharger mon CV 
+                        <i class="fa-solid fa-file-pdf fs-1"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-top border-secondary-subtle py-3 text-center text-body-secondary small">
+                &copy; 2024 <a href="index.html" class="link-primary text-decoration-none text-uppercase">Potey pah sea jean-charles</a>. Tous droits réservés.
+            </div>
+        </div>
+    </footer>
     
     <script src="sass/vendors/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
 </body>
 </html>
